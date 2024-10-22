@@ -11,7 +11,6 @@ const handleAddPost=(post)=>{
   return (
     <div>
         <AddPost onSubmit={handleAddPost} initialValue={{}}/>
-<p>Hello</p>
     </div>
   )
 }

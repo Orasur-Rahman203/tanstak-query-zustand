@@ -47,7 +47,7 @@ const count=useCounterStore((state)=>state.count)
       </Routes>
       {/* <Form /> */}
   {/* zustand section  */}
-      <OtherComponent count={count}/>
+      {/* <OtherComponent count={count}/> */}
     </div>
   )
 }
